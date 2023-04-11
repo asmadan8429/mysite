@@ -1,0 +1,167 @@
+a {
+    color: #11999E;
+    margin: 20px 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6 ;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #11999E;
+    color: #EAF6F6;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    padding-top: 100px;
+
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+h3 {
+    color: #11999E;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 5px;
+    color: gray;
+    margin: 100px auto;
+
+}
+
+p {
+    color: #40514E;
+    line-height: 2;
+}
+
+.btn {
+    background: #66BFBF;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 3px;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.contact-me {
+    padding-bottom: 20px;
+}
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+
+.topContainer {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 350px;
+    top: 80px;
+}
+
+.middle-container {
+    margin: 100px 0;
+
+}
+
+.java {
+    width: 15%;
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.cricket {
+    width: 15%;
+    float: right;
+    margin: 0 0 30px 0;
+}
+
+/* we use clear property to clear any side of a html elemnt */
+/* .java-para{
+    clear: left;
+    now ye para image ke arround wrap nhi hoga aur uska left clear rahega
+} */
+
+.skill-row {
+    width: 50%;
+    /* margin: auto; for centering thed div  */
+    text-align: left;
+    line-height: 2;
+    margin: 100px auto;
+
+}
+
+.personalimg {
+    width: 20%;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin: 20px auto 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 350px;
+    bottom: 400px;
+}
+
+.stu {
+    text-decoration: underline;
+}
+
+.contact-message{
+    width: 30%;
+    margin: 50px auto;
+}
